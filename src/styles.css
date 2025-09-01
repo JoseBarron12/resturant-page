@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montagu%20Slab:700|Montagu%20Slab:400');
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -35,6 +34,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
   text-wrap: pretty;
+  white-space: pre;
 }
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
@@ -115,15 +115,15 @@ nav > button {
 
 .main-text {
     background-color:rgba(0, 0, 0, .75);
-    font-family: 'Montagu Slab';
-    padding: 16px 48px ;
+    padding: 16px 64px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 8px;
-     border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 1px black;
 }
 
 .main-text > h1 {
