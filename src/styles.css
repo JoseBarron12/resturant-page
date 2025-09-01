@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montagu%20Slab:700|Montagu%20Slab:400');
+@font-face {
+    font-family: 'Licorice';
+    src: url('Licorice-Regular.woff2') format('woff2'),
+        url('Licorice-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -38,7 +46,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
-  font-family: 'Montagu Slab';
+  font-family: 'Licorice';
   font-weight: 700;
 }
 
@@ -64,6 +72,7 @@ small {font-size: 0.600rem; /* 9.6px */}
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Licorice';
 }
 
 header {
@@ -77,7 +86,7 @@ header {
 
 nav {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 nav > button {
@@ -131,7 +140,7 @@ nav > button {
 }
 
 .main-text > p {
-    font-size: 1.421rem;
+    font-size: 1.8rem;
 }
 
 .main-buttons {
@@ -141,7 +150,8 @@ nav > button {
 }
 
 .main-buttons > button {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     padding: 8px 16px;
     border-radius: 4px;
     border: none;
