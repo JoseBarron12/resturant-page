@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montagu%20Slab:700|Montagu%20Slab:400');
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -36,7 +38,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
-  font-family: 'Quintessential';
+  font-family: 'Montagu Slab';
   font-weight: 700;
 }
 
@@ -57,3 +59,34 @@ small {font-size: 0.600rem; /* 9.6px */}
 #root, #__next {
   isolation: isolate;
 }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px 8px 8px;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav > button {
+    background: none;
+    border: none;  
+}
+
+.logo > svg {
+    width: 64px;
+    height: auto;
+}
+
+
