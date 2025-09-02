@@ -1,4 +1,4 @@
-const displayHome = () => {
+const displayHomePage = () => {
     const content = document.querySelector("#content");
     
     const background = document.createElement("div");
@@ -32,4 +32,4 @@ const displayHome = () => {
     buttons.appendChild(learnBtn);
 };
 
-export {displayHome};
+export {displayHomePage};

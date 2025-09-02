@@ -74,6 +74,7 @@ body {
     flex-direction: column;
     font-family: 'Licorice';
     background-color: black;
+    color: white;
 }
 
 header {
@@ -209,8 +210,11 @@ nav > button {
   margin-top: 8px;
 }
 
-.menu-items > div {
-  border: 1px solid white;
+.menu-item > div {
+  display: flex;
+  justify-content: space-between;
 }
 
-
+.menu-items > p {
+  font-size: smaller;
+}
