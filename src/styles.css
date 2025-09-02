@@ -73,6 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Licorice';
+    background-color: black;
 }
 
 header {
@@ -80,7 +81,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 24px 8px 8px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     background-color: black;
 }
 
@@ -119,7 +120,6 @@ nav > button {
     justify-content: center;
     align-items: center;
     padding: 64px;
-
 }
 
 .main-text {
@@ -156,3 +156,61 @@ nav > button {
     border-radius: 4px;
     border: none;
 }
+
+.menu-background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 16px;
+  gap: 16px;
+  
+}
+
+.menu-header {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+.menu-info {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(3,1fr);
+  padding: 8px;
+  gap: 32px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+
+.breakfast, .dinner, .lunch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.breakfast > h2, .dinner > h2, .lunch > h2 {
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.menu-items{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.menu-items > div {
+  border: 1px solid white;
+}
+
+
