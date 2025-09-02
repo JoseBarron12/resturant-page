@@ -10,10 +10,10 @@ const displayHomePage = () => {
     background.appendChild(text);
 
     const header = document.createElement("h1");
-    header.textContent = "Random Resturant Name";
+    header.textContent = "Harvest & Hearth";
 
     const paragraph = document.createElement("p");
-    paragraph.textContent = "This is one of the best, if not best resturants ever.\r\nRated very highly by all.";
+    paragraph.textContent = "Welcome to Harvest & Hearth — where fresh ingredients, comforting flavors, and thoughtful presentation come together in every dish.\r\n From sunrise breakfasts to cozy dinners, our menu brings the warmth of homemade meals with a modern twist. \r\nWhether you're grabbing a bite or settling in for a full dining experience, you're always home here.";
     
     const buttons = document.createElement("div");
     buttons.classList.add("main-buttons");
