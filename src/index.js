@@ -3,8 +3,23 @@ import { displayHomePage } from "./home";
 import { displayMenuPage } from "./menu";
 import { displayAboutPage } from "./about";
 
-//displayHomePage();
 
-//displayMenuPage();
+const navButtons = document.querySelectorAll("nav>button");
 
-displayAboutPage();
+navButtons.forEach((button)=> {
+    button.addEventListener("click", () => {
+        const buttonName = button.getAttribute("class");
+        if(buttonName == "home-button")
+        {
+            displayHomePage();
+        }
+        else if (buttonName == "menu-button")
+        {
+            displayMenuPage();
+        }
+        else
+        {
+            displayAboutPage();
+        }
+    });
+});
