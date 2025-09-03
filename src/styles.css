@@ -225,7 +225,6 @@ nav > button {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .about-header {
@@ -234,7 +233,8 @@ nav > button {
   flex-direction: column;
   text-align: center;
   background-color: rgb(255, 255, 255);
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   color: black;
   padding: 16px 24px;
   gap: 12px;
@@ -287,21 +287,23 @@ nav > button {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  border-radius: 8px;
   color: black;
   padding: 16px 24px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  gap: 16px;
 }
 
 .about-main > h1 {
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 .about-section {
   height: 100%;
   width: 100%;
-  background-color: rgb(0, 0, 0);
   border-radius: 8px;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,11 +315,9 @@ nav > button {
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
   gap: 16px;
+  padding: 16px;
 }
 
-.hours > * {
-  border: 1px solid black;
-}
 
 .map {
   background-image: url(images/map.png);
@@ -325,4 +325,6 @@ nav > button {
   height: 80%;
   width: 500px;
   border-radius: 16px;
+  box-shadow: 1px 1px 5px black;
+  border: 2px solid black;
 }
