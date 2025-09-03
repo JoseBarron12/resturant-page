@@ -328,3 +328,7 @@ nav > button {
   box-shadow: 1px 1px 5px black;
   border: 2px solid black;
 }
+
+.active {
+  text-shadow: 1px 1px 10px white;
+}
