@@ -157,6 +157,13 @@ nav > button {
     border: none;
 }
 
+.main-buttons > button:nth-child(2) {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+}
+
+
 .menu-background {
   height: 100%;
   width: 100%;
