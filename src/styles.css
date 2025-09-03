@@ -267,21 +267,20 @@ nav > button {
 
 .contact-info > div {
   display: flex;
-  gap: 4px;
+  gap: 8px;
   align-items: center;
 }
-
 
 .contact-info > div > img {
   width: 24px;
   height: 24px;
-
+  filter: invert(100%) sepia(3%) saturate(8%) hue-rotate(312deg) brightness(105%) contrast(101%);
 }
 
 .contact-info div:nth-child(even)
 {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
   padding: 0px 16px;
 }
 
